@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "m-tab-control": "/components/m-tab-control/m-tab-control",
+    "m-goods": "/components/m-goods/m-goods"
+  }
+}

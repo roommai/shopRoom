@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "m-header": "./childCpns/m-header/m-header",
+    "m-info": "./childCpns/m-info/m-info",
+    "m-list-view": "./childCpns/m-list-view/m-list-view"
+  },
+  "navigationBarTitleText": "信息"
+}

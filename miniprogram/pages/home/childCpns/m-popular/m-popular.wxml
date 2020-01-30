@@ -1,0 +1,4 @@
+<!--pages/home/childCpns/m-popular/m-popular.wxml-->
+<view class="popular">
+  <image src="/images/home/popular.jpg" mode="widthFix"></image>
+</view>

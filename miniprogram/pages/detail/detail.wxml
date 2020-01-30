@@ -1,0 +1,25 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class='detail'
+             scroll-y>
+  <m-swiper class="d-swiper" list="{{topImages}}"/> 
+
+  <!-- 2.商品名称价格项 -->
+  <m-base-info baseInfo="{{baseInfo}}"/>
+
+  <!-- 3.店铺信息 -->
+  <m-shop-info shopInfo="{{shopInfo}}"/>
+
+  <!-- 4.商品详情介绍 -->
+  <m-detail-info detailInfo="{{detailInfo}}"/>
+
+  <!-- 5.商品规格 -->
+  <m-param-info paramInfo="{{paramInfo}}"/>
+
+  <!-- 6.用户评价 -->
+  <m-comment-info commentInfo="{{commentInfo}}"/>
+
+  <!-- 7.商品推荐 -->
+  <m-recommend-info recommends="{{recommends}}"/>
+</scroll-view>
+<!-- 9.底部导航栏 -->
+<m-bottom-bar bind:addcart="onAddCart"/>

@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+<view class='profile'>
+  <m-header/>
+  <m-info/>
+  <m-list-view infos="{{orderList}}"/>
+  <m-list-view infos="{{serviceList}}"/>
+</view>
